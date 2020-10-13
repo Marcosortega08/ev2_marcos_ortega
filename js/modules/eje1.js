@@ -14,7 +14,7 @@ data:`
 <h2>Empresa : Cartoon</h2>
 <div id="salida"></div>
 `,
-cargarTabla:function(){
+cargar:function(){
     var salida = document.getElementById('salida');
     var tabla =`
         <table border='1' width='400'>
