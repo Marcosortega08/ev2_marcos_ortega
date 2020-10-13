@@ -27,7 +27,7 @@ cargar:function(){
 
     this.trabajadores.forEach(item => {
         tabla +=`
-        <tr class="${item.nombre > 350000 ? "sueldo_Mayor" : "sueldo_Menor"}">
+        <tr class="${item.sueldo > 350000 ? "sueldo_Mayor" : "sueldo_Menor"}">
              <td>${item.numero}</td>
              <td>${item.nombre}</td>
              <td>${item.sueldo}</td> 
